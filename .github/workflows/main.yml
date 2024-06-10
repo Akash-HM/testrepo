@@ -1,0 +1,13 @@
+name: POCworkflow
+on:
+  workflow_dispatch
+
+jobs:
+  my-job:
+    uses: Akash-HM/testrepo2/.github/workflows/main.yml@main
+    with:
+      runner: 'ubuntu-latest'
+      checkoutrepo: 'Akash-HM/POCfirstrepo'
+      checkoutbranch: 'main'
+      node-version: '12.x'
+    secrets: inherit
