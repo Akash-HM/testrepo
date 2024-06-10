@@ -7,7 +7,7 @@ jobs:
     uses: Akash-HM/testrepo2/.github/workflows/main.yml@main
     with:
       runner: 'ubuntu-latest'
-      checkoutrepo: 'Akash-HM/POCfirstrepo'
+      checkoutrepo: 'Akash-HM/testrepo2'
       checkoutbranch: 'main'
       node-version: '12.x'
     secrets: inherit
