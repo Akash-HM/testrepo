@@ -10,4 +10,3 @@ jobs:
       checkoutrepo: 'Akash-HM/testrepo2'
       checkoutbranch: 'main'
       node-version: '12.x'
-    secrets: inherit
